@@ -1,6 +1,5 @@
 package main
 
-
 const spanish = "Spanish"
 const french = "French"
 const englishHelloPrefix = "Hello, "

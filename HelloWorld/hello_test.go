@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestHello(t *testing.T)  {
+func TestHello(t *testing.T) {
 
 	assertCorrectMessage := func(t testing.TB, got, want string) {
 
@@ -13,7 +13,7 @@ func TestHello(t *testing.T)  {
 
 	}
 
-	t.Run("saying hrllo to people", func(t *testing.T){
+	t.Run("saying hello to people", func(t *testing.T) {
 
 		got := Hello("Ton", "")
 		want := "Hello, Ton"
